@@ -13,7 +13,8 @@ body {
 
 /* NavBar */
 .navbar {
-    width: 100%;
+    min-width: 650px;
+    max-width: 100%;
     padding: 8px 0px 6px 0px;
     /* background-color: red; */
     background-color: white;
@@ -129,7 +130,7 @@ body {
     width: 25%;
     background-color: #F0F2F5;
     height: 100vh;
-/* position: fixed; */
+    /* position: fixed; */
 }
 
 .names {
@@ -139,11 +140,13 @@ body {
     margin: 20px 13px;
     cursor: pointer;
 }
-.names:hover{
-background-color: #E4E6E9;
-border-radius: 12px;
-padding: 2px;
+
+.names:hover {
+    background-color: #E4E6E9;
+    border-radius: 12px;
+    padding: 2px;
 }
+
 .imgname img {
     width: 32px;
     height: 32px;
@@ -205,11 +208,13 @@ padding: 2px;
     cursor: pointer;
     padding: 5px 0px;
 }
-.namens:hover{
+
+.namens:hover {
     background-color: #E4E6E9;
     border-radius: 12px;
     padding: 5px 5px;
-    }
+}
+
 .namens h4 {
     color: rgb(5, 5, 5);
     font-size: 15px;
@@ -600,7 +605,8 @@ padding: 2px;
         min-width: 645px;
     }
 }
-@media(width<670px){
+
+@media(width<670px) {
     .part2 {
         margin: 20px 0px;
     }
