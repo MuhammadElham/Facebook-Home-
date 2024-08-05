@@ -471,7 +471,7 @@ body {
 
 .governorimages img {
     margin-top: 20px;
-    height: 345px;
+    /* height: 345px; */
     width: 100%;
 
 }
